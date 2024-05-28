@@ -41,7 +41,7 @@ var path_1 = require("path");
 var bot_1 = require("@builderbot/bot");
 var bot_2 = require("@builderbot/bot");
 var provider_baileys_1 = require("@builderbot/provider-baileys");
-var PORT = (_a = process.env.PORT) !== null && _a !== void 0 ? _a : 3008;
+var PORT = (_a = process.env.PORT) !== null && _a !== void 0 ? _a : 3007;
 var discordFlow = (0, bot_1.addKeyword)('doc').addAnswer(['You can see the documentation here', '📄 https://builderbot.app/docs \n', 'Do you want to continue? *yes*'].join('\n'), { capture: true }, function (ctx_1, _a) { return __awaiter(void 0, [ctx_1, _a], void 0, function (ctx, _b) {
     var gotoFlow = _b.gotoFlow, flowDynamic = _b.flowDynamic;
     return __generator(this, function (_c) {
